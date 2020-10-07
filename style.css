@@ -40,6 +40,16 @@ p {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+
+.btn-logo:hover {
+    background-color: #000;
+    color: #fab702;
 }
 
 .btn-logo-reverse {
@@ -83,4 +93,35 @@ p {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
+}
+
+/** Banner Start **/
+.banner-wrapper {
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    font-weight: 700;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.banner h1 {
+    font-weight: 700;
+    color: #666;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.banner p {
+    color: #666;
+    font-size: 22px;
+    letter-spacing: 1px;
+    max-width: 550px;
+    line-height: 1.7;
 }
