@@ -60,3 +60,11 @@ $("document").ready(function () {
     });
 });
 // Owl Carousel Logos end
+
+// Counter up code
+$("document").ready(function ($) {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+});
