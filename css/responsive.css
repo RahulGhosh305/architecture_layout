@@ -17,6 +17,10 @@
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
+    .navbar ul li a {
+        font-size: 18px;
+    }
+
     p {
         font-size: 15px;
     }
@@ -28,6 +32,11 @@
     .btn-logo {
         padding: 10px 20px;
     }
+
+    #ul-T-center {
+        text-align: center;
+    }
+
 
     .feature-item-title {
         font-size: 12px;
@@ -50,6 +59,11 @@
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
+    .navbar ul li a {
+
+        font-size: 16px;
+    }
+
     .resize {
         font-size: 14px;
     }
@@ -57,6 +71,11 @@
     p {
         font-size: 15px;
     }
+
+    #ul-T-center {
+        text-align: center;
+    }
+
 
     .banner h1 {
         font-size: 24px;
@@ -114,6 +133,10 @@
 }
 
 @media (max-width:575px) {
+    .navbar ul li a {
+        font-size: 14px;
+    }
+
     .topbar {
         text-align: center;
     }
@@ -128,6 +151,10 @@
 
     p {
         font-size: 13px;
+    }
+
+    #ul-T-center {
+        text-align: center;
     }
 
     .banner h1 {

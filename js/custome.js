@@ -1,6 +1,34 @@
-// isotope code start
+// navbar onscroll sticky code background color change Start
+
+//* document ready
 $("document").ready(function () {
-    // init Isotope
+    //* selector on event
+    $(window).on("scroll", function () {
+        //* Condition
+        if ($(window).scrollTop()) {
+            $(".navbar").addClass("dark")
+        } else {
+            $(".navbar").removeClass("dark");
+        }
+    });
+});
+// navbar onscroll sticky code background color change end
+
+
+// Navbar collapse code
+//* document ready
+$("document").ready(function () {
+    $(".trigger").click(function () {
+        $(".navbar-collapse").collapse("hide");
+    });
+});
+
+
+// isotope build plugin code start
+
+//* document ready
+$("document").ready(function () {
+    //* init Isotope
     var $grid = $('.grid').isotope({
         // options
     });
@@ -14,8 +42,15 @@ $("document").ready(function () {
 });
 // isotope code end
 
+
+
+
+
 // Owl Carousel Start testimonial
+
+//* document ready
 $("document").ready(function () {
+    //* init OwlCarousel
     $(".testimonial-carousel").owlCarousel({
         items: 2,
         nav: false,
@@ -37,8 +72,15 @@ $("document").ready(function () {
 });
 // Owl Carousel testimonial End 
 
+
+
+
+
 // Owl Carousel Start Logos
+
+//* document ready
 $("document").ready(function () {
+    //* init OwlCarousel
     $(".client-carousel").owlCarousel({
         items: 5,
         nav: false,
@@ -61,8 +103,15 @@ $("document").ready(function () {
 });
 // Owl Carousel Logos end
 
+
+
+
+
 // Counter up code
+
+//* document ready
 $("document").ready(function ($) {
+    //* init CounterUp
     $('.counter').counterUp({
         delay: 10,
         time: 1000
