@@ -15,13 +15,19 @@ $("document").ready(function () {
 // navbar onscroll sticky code background color change end
 
 
-// Navbar collapse code
+
+// * NOTE THAT FOR BETTER WORK Jquery CDN must be TOP on Bootstrap JS links
+// Navbar collapse code start
 //* document ready
 $("document").ready(function () {
     $(".trigger").click(function () {
         $(".navbar-collapse").collapse("hide");
     });
 });
+// Navbar collapse code end
+
+
+
 
 
 // isotope build plugin code start
